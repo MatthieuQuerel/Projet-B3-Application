@@ -1,0 +1,11 @@
+.ImageBoxe{
+    height:780px;
+    width: 107rem;
+    padding-top: 6px;
+   
+    /*top: 60px;*/
+    padding: none;
+    position: fixed;
+    opacity: 0.33;
+  
+}
