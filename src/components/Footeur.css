@@ -1,0 +1,71 @@
+.Footeur{
+max-width: 100%;
+margin-top: 35px;
+background-color: black;
+box-shadow:  0 10px 12px 0 rgba(55, 107, 109, 0.2);
+display: flex;
+position: relative;
+
+
+}
+.LocalisationHoraire{
+    justify-content:space-around;
+    display: flex;
+    padding: 20px;
+    max-width: 50%;
+}
+.FooteurInfoImage{
+    margin-left: 118px;
+    display: flex; /* Élimine l'espace réservé sous l'image */
+    padding: 20px;
+    max-width: 40%;
+    justify-content:space-around;
+}
+.FooteurInfoImage img{
+    margin-bottom: 10px;
+    width: 80px; /* Assurez-vous que l'image remplit la largeur de .ImageBoxe */
+    height: auto; /* Pour conserver les proportions de l'image */
+    display: block; /* Élimine l'espace réservé sous l'image */
+    margin-left: 8px;
+}
+
+.FooteurImage{
+    flex: 0 0 calc(5% - 3px);
+    justify-content:space-around;
+}
+.FooteurInfo {
+    flex: 0 0 calc(90% - 6px);
+    padding-top:8px;
+    justify-content:space-around;
+    font-size:20px;
+    margin-left: 12px;
+}
+.FooteurInfo h1 {
+    padding-top:8px;
+    justify-content:space-around;
+    font-size:20px;
+}
+.FooteurInfo p {
+    justify-content:space-around;
+    font-size:12px;
+}
+.Localisation{
+    justify-content:space-between;
+}
+.Localisation h2{
+
+    padding-top:8px;
+    justify-content:space-around;
+    font-size:17px;
+}
+
+.Horaire{
+    justify-content:space-between;
+    margin-left: 10px;
+}
+.Horaire h2{
+
+    padding-top:8px;
+    justify-content:space-around;
+    font-size:17px;
+}

@@ -7,8 +7,11 @@
   font-family: sans-serif;
   width: 100%;
   min-height: 100vh;
-  margin-left: 8px;
+ 
   padding-top: 8px;
+}
+.App  button{
+ margin-left: 8px;
 }
 /*
 .App .navbar {

@@ -1,11 +1,314 @@
-.ImageBoxe{
-    height:780px;
-    width: 107rem;
-    padding-top: 6px;
-   
-    /*top: 60px;*/
-    padding: none;
-    position: fixed;
-    opacity: 0.33;
+.Accueil.image {
+    
+    text-align: center;
+    background-color: red;
+    position: relative;
+}
+
+.ImageBoxe {
+    margin-top: 5px;
+    position: relative; /* Position relative pour contenir .InfoSurImage */
+    width: 100%; /* Vous pouvez ajuster la largeur selon vos besoins */
+    height: 600px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    overflow: hidden; /* Pour cacher tout contenu qui dépasse la taille de .ImageBoxe */
+}
+
+.ImageBoxe img {
+    width: 100%; /* Assurez-vous que l'image remplit la largeur de .ImageBoxe */
+    height: auto; /* Pour conserver les proportions de l'image */
+    display: block; /* Élimine l'espace réservé sous l'image */
+}
+
+.InfoSurImage {
+    position: absolute; /* Position absolue par rapport à .ImageBoxe */
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top:15rem;
+    /* Autres styles pour .InfoSurImage */
+}
+.InfoSurImage h1 {
+    text-align : center;
+    width:60rem;
+    margin-left: 13rem;
+    color:rgb(245, 126, 23);
+    
+}
+.InfoSurImage button {
+    margin-top:5rem;
+    margin-left: 10rem; 
+}
+.InfoSurImage button:hover {
+    background-color: #f77b0f; /* Green */
+    color: white;
+    border-color:rgb(245, 126, 23);
+}
+.InfoBootonReservation{
+    display: flex
+}
+.InfoBootonReservationPriver button{
+    justify-content:space-around;
+    border-radius:15px;
+    border: solid 4px;
+    border-color:rgb(245, 126, 23);
+    background-color: transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.InfoBootonReservationColectif button{
+    justify-content:space-around;
+    border-radius:15px;
+    background: linear-gradient(to left,rgb(179, 225, 29), rgb(245, 126, 23));
+    font-size: 1.5em;
+    border-color:rgb(245, 126, 23);
+    cursor: pointer;
+}
+
+.InfoButtonVideoReseau{
+    display: flex
+}
+.InfoBoutonVideo{
+    justify-content:space-around;
+    
+
+}
+.Scrol{
+    justify-content:space-around; 
+    margin-left: 180px;
+    padding-top: 50px;
+
+}
+.Scrol button{
+    background-color: transparent;
+    border-radius:30px;
+    border: solid 1px;
   
 }
+
+.InfoBoutonVideo button{
+   
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius:50px;
+    border: solid 1px;
+    font-weight: bold;
+
+}
+
+.InfoBoutonReseau  {
+    display: block;
+    justify-content:space-around;
+    display:flex;   
+    cursor: pointer;
+    margin-left:35%;
+    margin-top: 6rem;
+    width: 200px;
+  }
+  .InfoBoutonReseau  Button {
+    text-align: center;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: 30%;
+    background: linear-gradient(to left,rgb(237, 177, 14), rgb(245, 126, 23));
+    margin: 10px;
+  }
+  .InfoFaceBook{
+    justify-content:space-around;
+  } 
+   .InfoInsta{
+    justify-content:space-around;
+    
+  }
+  .InfoBoutonReseau button :hover {
+    background-color: rgb(194, 150, 8);
+  }
+
+.Apropo {
+    margin-top:40px;
+   /* background-color: green;*/
+    /* Autres styles pour .Apropo */
+}
+.TitreApropo{
+    text-align: center;
+}
+
+.AventageSport_histoire{
+    display:flex;
+}
+.histoire{
+    justify-content:space-around;
+}
+.histoire h2{
+    font-size:70px;
+     margin-left: 2rem;
+}
+.histoire p{
+    font-size:15px;
+    margin-left: 2rem;
+}
+.AventageSport{
+    justify-content:space-around;
+    margin-left: 300px;
+    padding-top: 30px;
+    width: 550px;
+    font-size:15px;
+    color: rgb(237, 177, 14);  
+}
+.Card {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Aligner les cartes en utilisant l'espace disponible entre elles */
+  }
+  
+  .Card > div {
+    flex: 0 0 calc(20% - 3px); /* Chaque carte occupe 50% de la largeur avec un espacement de 10px */
+    
+    padding: 30px;
+    border: 1px solid #0f0f0f;
+    text-align: center; /* Centrez le texte à l'intérieur des cartes */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+    box-sizing: border-box; /* Inclure la bordure et le rembourrage dans les dimensions */
+  }
+  
+  /* Exemple de style pour le texte dans les cartes */
+  .Card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .Card p {
+    font-size: 14px;
+  }
+  
+/* On mouse-over, add a deeper shadow */
+.Card_PHYSIQUE:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.Card_MUSCULAIRE:hover {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.Card_BOXE:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.Card_RING:hover {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.Card_DÉTENTE:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+.PLANNING_DES_COURS {
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    margin-left:30rem;
+    margin-bottom: 10px;
+    box-shadow:  0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+   
+}
+.PLANNING_DES_COURS_text{
+position: absolute;
+  top: 50%; /* Positionne le texte au milieu verticalement */
+  left: 50%; /* Positionne le texte au milieu horizontalement */
+  transform: translate(-50%, -50%); /* Centre le texte précisément */
+  padding: 10px; /* Espacement autour du texte */
+  color: #fff; /* Couleur du texte */
+  font-size: 18px; /* Taille de la police */
+  text-align: center; 
+}.PLANNING_DES_COURS_IMG{
+    margin-top: 2rem;
+    position: relative; /* Position relative pour contenir .InfoSurImage */
+    width: 100%; /* Vous pouvez ajuster la largeur selon vos besoins */
+    height: 190px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    overflow: hidden; /* Pour cacher tout contenu qui dépasse la taille de .ImageBoxe */
+}
+    .PLANNING_DES_COURS_text h2 {
+        font-size: 14px;
+         width: 80px;
+    }
+
+    .PLANNING_DES_COURS_text button {
+        background-color: transparent;
+        padding: 5px 1px;
+        border-radius:15px;
+        border: solid 4px;
+        border-color:rgb(245, 126, 23);
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .PLANNING_DES_COURS_IMG img {
+        max-width: 450px;
+        height: auto;
+        margin-top: 20px;
+        display: block;
+    }
+.TARIFS_des_Cours {
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    margin-left:30rem;
+    margin-bottom: 10px;
+    box-shadow:  0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+   
+}
+.TARIFS_des_Cours_Text{
+position: absolute;
+  top: 50%; /* Positionne le texte au milieu verticalement */
+  left: 50%; /* Positionne le texte au milieu horizontalement */
+  transform: translate(-50%, -50%); /* Centre le texte précisément */
+  padding: 10px; /* Espacement autour du texte */
+  color: #fff; /* Couleur du texte */
+  font-size: 18px; /* Taille de la police */
+  text-align: center; 
+}.TARIFS_des_Cours_IMG{
+    margin-top: 2rem;
+    position: relative; /* Position relative pour contenir .InfoSurImage */
+    width: 100%; /* Vous pouvez ajuster la largeur selon vos besoins */
+    height: 190px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    overflow: hidden; /* Pour cacher tout contenu qui dépasse la taille de .ImageBoxe */
+}
+    .TARIFS_des_Cours_Text h2 {
+        font-size: 14px;
+         width: 80px;
+    }
+
+    .TARIFS_des_Cours_Text button {
+        background-color: transparent;
+        padding: 5px 1px;
+        border-radius:15px;
+        border: solid 4px;
+        border-color:rgb(245, 126, 23);
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .TARIFS_des_Cours_IMG img {
+        max-width: 450px;
+        height: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
+    /* Styles personnalisés pour inverser l'ordre */
+   
