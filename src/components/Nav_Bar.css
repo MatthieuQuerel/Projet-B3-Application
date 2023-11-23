@@ -1,5 +1,45 @@
-.nav-Logo{
-    padding: 10px;
-    width: 70px;
-}
 
+
+/* Nav_Bar.css */
+
+.navbar {
+    z-index: 1;
+    width: 150px;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    overflow: hidden; /* Pour contenir les éléments flottants à l'intérieur de la barre de navigation */
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    flex-direction: column; /* Définit la direction de la colonne */
+    align-items: flex-start; /* Aligner les éléments à gauche */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Affiche les éléments de la liste en colonne (verticalement) */
+    flex-direction: column; /* Définit la direction de la colonne */
+  }
+  
+  .navbar li {
+    margin: 5px 0; /* Espacement entre les éléments de la liste */
+  }
+  
+  .navbar a {
+    display: block;
+    color: white; /* Couleur du texte des liens */
+    text-align: center;
+    padding: 5px; /* Espacement interne des liens */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+  }
+  
+  .nav-Logo {
+    height: 100px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-bottom: 5px; /* Espacement sous le logo */
+    padding: 20px;
+    width: 100px;
+  }
+  

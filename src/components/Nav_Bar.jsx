@@ -5,7 +5,9 @@ function NavBar() {
     <nav className="navbar">
       <ul>
       <li>
-          <Link to="/"><a><img className="nav-Logo" src="/public/Image Video/Image/LOGO.png" alt="Logo Club"/></a></Link>
+      <Link to="/">
+            <img className="nav-Logo" src="/public/Image Video/Image/LOGO.png" alt="Logo Club" />
+      </Link>
         </li>
         <li>
           <Link to="/">Accueil</Link>
@@ -14,9 +16,14 @@ function NavBar() {
           <Link to="/Club">Club</Link>
         </li>
         <li>
+          <Link to="/Tarif">Tarif</Link>
+        </li>
+        <li>
           <Link to="/Cours">Cours</Link>
         </li>
-        
+        <li>
+          <Link to="/Contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );

@@ -1,0 +1,39 @@
+.add-person-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  h1{
+    width: 100%;
+    padding: 4px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  form button {
+    background-color: #d4770d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #5945a0;
+  }
+  
